@@ -1,0 +1,33 @@
+body{
+	font-family: Constanian;
+	/*background: radial-gradient(white, black);*/
+	/*font-size: 18px;*/
+}
+
+.spacer{
+	margin-top: 100px;
+}
+
+.btn-user{
+	float: right;
+	margin-top:8px;
+	width: 300px;
+	border-width: 0px;
+	padding: 0px;
+	background: transparent;
+}
+.btn-user:hover{
+	text-decoration: underline;
+}
+#info-user{
+	position: absolute;
+	top: 45px;
+	right: 1px;
+	width: 300px;
+	border: 1px solid black;
+	padding: 5px;
+	background: rgba(224,224,224,0.8);
+	z-index: 100000000	;
+	font-size: 0.8em;
+	
+}
