@@ -1,0 +1,33 @@
+Structure de la table
+user(id,nom varchar(250), prenom, email,tel, login, mdp)
+
+pour la gestion des profils
+pour se connecter il faut k l'user soit validés par l'admin
+on va faire une liste deroulante dans la connexion 
+
+/*$tab = array('nom' =>$nom ,'prenom' =>$prenom ,'tel' =>$tel,'login' =>$login,'mdp' =>$mdp,'profil' =>$profil);
+
+	if(Verification($tab))
+	if (isset($nom)&& !empty($nom)) {
+		echo "Bonjour Mr ".$prenom." ".$nom;
+	}
+	
+	if (empty($nom)) {
+		header('location: inscription.php');
+	}
+	//var_dump(isset($nom));
+	//var_dump($_POST) //pour savoir s'il a recupere tous les champs
+	
+
+	$bdd = new PDO('mysql:host=localhost;dbname=tp_php', 'root', ''); 
+	// on met le port si necessaire port:numerodenotreport
+	//on fait un var_dump() pour voir exactement kesk on a au niveau de page pour la connection*/
+	?>
+
+	// On admet que $db est un objet PDO
+/*$request = $db->query('SELECT id, nom, forcePerso, degats, niveau, experience FROM personnages');
+    
+while ($perso = $request->fetch(PDO::FETCH_ASSOC)) // Chaque entrée sera récupérée et placée dans un array.
+{
+  echo $perso['nom'], ' a ', $perso['forcePerso'], ' de force, ', $perso['degats'], ' de dégâts, ', $perso['experience'], ' d\'expérience et est au niveau ', $perso['niveau'];
+}*/
